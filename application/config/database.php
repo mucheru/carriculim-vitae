@@ -74,8 +74,8 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'pgsql:host=127.0.0.1;port=5432;dbname=accordion_vitae',
-	'hostname' => 'pgsql:host=127.0.0.1;dbname=accordion_vitae',
+	'dsn'	=> 'pgsql:host=localhost;port=5432;dbname=accordion_vitae',
+	'hostname' => 'pgsql:host=localhost;dbname=accordion_vitae',
 	'username' => 'postgres',
 	'password' => '',
 	'database' => 'accordion_vitae',
