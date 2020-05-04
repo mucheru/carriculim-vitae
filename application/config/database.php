@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'vivacom11',
-	'database' => 'Accordion_vitae',
-	'dbdriver' => 'mysqli',
+	'dsn'	=> 'pgsql:host=localhost;port=5432;dbname=accordion_vitae',
+	'hostname' => 'pgsql:host=localhost;dbname=accordion_vitae',
+	'username' => 'postgres',
+	'password' => '',
+	'database' => 'accordion_vitae',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
