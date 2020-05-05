@@ -30,7 +30,7 @@
 
      <div class="form-group">
       <strong><label for="Age">Age:</label></strong>
-      <label for="Age">28 years of age</label>      
+      <label for="Age">27 years of age</label>      
     </div>
 
     <div class="form-group">
@@ -109,7 +109,8 @@
       <li>Good knowledge of code versioning tool ie git</li>
       <li>Familiar with some  web servers eg Apache,nginx.</li>
         <li>Good knowledge of system integrations.</li>
-        <li> Insurance system knowledgeable.</li>         
+        <li> Insurance system knowledgeable.</li> 
+        <li> knowledge of CD/CI and git  workflow</li>       
 
     </ul>
   </div>
