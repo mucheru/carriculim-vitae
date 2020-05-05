@@ -27,11 +27,17 @@
   <h2>Personal Information:
 </h2>
   <form action="/action_page.php">
+
+     <div class="form-group">
+      <strong><label for="Age">Age:</label></strong>
+      <label for="Age">28 years of age</label>      
+    </div>
+
     <div class="form-group">
       <strong><label for="email">Email:</label></strong>
-      <label for="email">stephenmucheru79@gmail.com</label>
-      
+      <label for="email">stephenmucheru79@gmail.com</label>      
     </div>
+
     <div class="form-group">
       <strong><label for="Personal Phone Number">Personal Phone Number</label></strong>
       <label for="Personal Phone Number">0728466276</label>      
@@ -46,10 +52,10 @@
       <label for="Nairobi-Upperhill">Nairobi-Upperhill</label>  
     </div>
    
-   <div class="form-group">
+   <div class="form-group"> 
      <strong><label for="General brief about mysel">General brief about myself:</label></strong>
-      <label for="General brief about myself">I thrive when my work is put to test.I believe in working smart and hard working. Success comes after struggle and dedication to work.I believe learning is a continuous process and would like to constantly enhance my knowledge and skills for a successful and fulfilling career.I also believe in team work,no one has ever succeeded by pulling down a colleague but offering a helping hand is what sharpens your skill.
-        I'm proficient in Development & Operations' technologies eg php,  python, object Software Life Cycle management eg agile software life cycle process.
+      <label for="General brief about myself">I am ambitious and a go getter software engineer and a system administrator.I thrive when my work is put to test.I believe in working smart and hard working. Success comes after struggle and dedication to work as it is said "crimson hot funnel is what makes a fine gold-like achiever". I believe learning is a continuous process and would like to constantly enhance my knowledge and skills for a successful and fulfilling career.I also believe in team work, a helping hand is what sharpens  skills.
+      I'm proficient in Development & Operations' technologies eg php,  python, object Software Life Cycle management eg agile software life cycle process.
 </label>  
     </div>
 
