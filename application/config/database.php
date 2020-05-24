@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'pgsql:host=ec2-54-165-36-134.compute-1.amazonaws.com;port=5432;dbname=dbduopna7ojdh4',
-	//'hostname' => 'pgsql:host=127.0.0.1;dbname=accordion_vitae',
-	'username' => 'wyyexgeiaiufje',
-	'password' => '260bc001c951343ee7114792aee8457ec362430f3d1ff6137a4b02a8ee6f1de0',
-	'database' => 'dbduopna7ojdh4',
+	'dsn'	=> 'pgsql:host=127.0.0.1;port=5432;dbname=accordion_vitae',
+	'hostname' => 'pgsql:host=127.0.0.1;dbname=accordion_vitae',
+	'username' => 'postgres',
+	'password' => '',
+	'database' => 'accordion_vitae',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
