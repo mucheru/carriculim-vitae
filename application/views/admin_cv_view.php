@@ -129,12 +129,16 @@ input[type=submit], select {
   <li class="ui-widget-content">Item 5</li>
   <li class="ui-widget-content">Item 6</li>
   <li class="ui-widget-content">Item 7</li>
-</ol>
- 
+</ol> 
+
+
+
   </div>
-  <h3>Section 4</h3>
+
+
+  <h3>Referees</h3>
   <div>
-    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+    <p>Git hub projects </p>
   </div>
 </div>
  

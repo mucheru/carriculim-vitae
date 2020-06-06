@@ -43,6 +43,15 @@ class Account_model extends CI_Model{
     $return_array = $query->result_array();
     return $return_array;
    }
+
+   public function get_skills($id)
+   {
+    $this->db->select('*');
+    $this->db->from('skills');
+    $this->db->where('id',$id);
+    $query=$this->db->get();
+    return $query->row();
+   }
 }
 
 
