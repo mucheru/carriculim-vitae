@@ -52,6 +52,17 @@ class Account_model extends CI_Model{
     $query=$this->db->get();
     return $query->row();
    }
+   public function update_record($data,$id){
+    $this->db->where('id', $id);
+    $this->db->update('skills', $data);
+    $result = $this->db->affected_rows();
+    return $result;
+   }
+   public function delete_record($id){
+    $this->db->where('id',$id);
+    $this->db->delete('skills');
+
+   }
 }
 
 

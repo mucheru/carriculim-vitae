@@ -92,6 +92,21 @@
 	//$this->load->view('skills/display_skills',$data);
 
 	}
+	public function update_skill(){
+		$id=$this->input->post('id');
+		$data=array(
+			'skill'=>$this->input->post('skills')
+		);
+
+		$this->account_model->update_record($data,$id);
+		$this->session->set_flashdata('msg','The data was updates successful');
+		echo $this->session->flashdata('msg');
+	}
+		public function delete($id){
+		$this->account_model->delete_record($id);
+		$this->session->set_flashdata('msg','The data was deleted successful');
+		echo $this->session->flashdata('msg');
+	}
 
 	}
 

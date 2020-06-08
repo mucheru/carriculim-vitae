@@ -25,7 +25,8 @@
        <td><?php echo $skills['skill']; ?></td>
         <td><?php echo $skills['created_on']; ?></td>
          
-      <td> <a class="btn btn-danger" value="<?php echo $skills['id']; ?>" href="<?= site_url('/index.php/admin/Admin_cv_setup/edit_skills/'.$skills['id']); ?>"><span class="glyphicon glyphicon-trash">EDIT</span></a></td>
+      <td> <a  value="<?php echo $skills['id']; ?>" href="<?= site_url('/index.php/admin/Admin_cv_setup/edit_skills/'.$skills['id']); ?>"><span class="glyphicon glyphicon-trash">EDIT</span></a></td>
+      <td> <a  value="<?php echo $skills['id']; ?>" href="<?= site_url('/index.php/admin/Admin_cv_setup/delete/'.$skills['id']); ?>"><span class="glyphicon glyphicon-trash">delete</span></a></td>
 
        <input type=hidden  value="<?php $skills['id']; ?>" name='id'>
 

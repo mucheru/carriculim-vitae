@@ -83,10 +83,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <button class="open-button" onclick="openForm()">Edit skills</button>
 
 <div class="form-popup" id="myForm">
-  <?php echo form_open('index.php/admin/admin_cv_setup/update_skill') ;?> <class="form-container">
+  <?php echo form_open('index.php/admin/admin_cv_setup/update_skill/') ;?> <class="form-container">
     <h1>Edit Skills</h1>
 
     <label for="skill"><b>skills</b></label>
+    <input type="hidden"  name="id"  value="<?php echo $skill->id?>">
+
     <input type="text" placeholder="edit skills" name="skills"  value="<?php echo $skill->skill?>">   
     <button type="submit" class="btn btn-info">update skill</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
