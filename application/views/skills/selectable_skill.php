@@ -26,45 +26,12 @@
 
  	<?php foreach($skill as $skills){ ?>
 	<ol  id="selectable" ui-selectable>
-	<li   class="ui-widget-content"  ><?php echo $skills['skill'] ?></li> </ol> 
+	<li   class="ui-widget-content" > <?php echo $skills['skill'] ?></li> </ol> 
 <?php } 
 
 ?>
  
  
-<ol id="selectable">
-  <li class="ui-widget-content">Item 1</li>
-  <li class="ui-widget-content">Item 2</li>
-  <li class="ui-widget-content">Item 3</li>
-  <li class="ui-widget-content">Item 4</li>
-  <li class="ui-widget-content">Item 5</li>
-  <li class="ui-widget-content">Item 6</li>
-  <li class="ui-widget-content">Item 7</li>
-</ol>
- 
- 
-</body>
-</html>
+<
 
-
-<?php foreach($skill as $skills){ ?>
-<tr style="text-align: center">
-
-<br><td><?php echo $skills['id'] ?></td>
-<?php echo $skills['skill'] ?></td> 
-
-<?php } 
-
-?>
-
-
-</body>
-
-<div>
-<ol id="selectable">
-<li class="ui-widget-content">Item 1</li>
-<li class="ui-widget-content">Item 2</li>
-<li class="ui-widget-content">Item 3</li>
-</ol> 
-</div>
-</html>
+</html

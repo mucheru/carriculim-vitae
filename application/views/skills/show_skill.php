@@ -17,6 +17,7 @@
     &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp<strong><th>created_on</th></strong>
     &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp<strong><th>status</th></strong>
 
+
 <?php foreach($skill as $skills){ ?>
            <table style="width:40%">
     

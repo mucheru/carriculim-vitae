@@ -10,6 +10,8 @@
 	$this->load->helper('date_helper');
 	$this->load->library('session');
 	$this->load->library('table');
+	$this->load->helper('url');
+
 	}
 
 	public function index()
@@ -103,9 +105,20 @@
 		echo $this->session->flashdata('msg');
 	}
 		public function delete($id){
-		$this->account_model->delete_record($id);
-		$this->session->set_flashdata('msg','The data was deleted successful');
-		echo $this->session->flashdata('msg');
+		$results=$this->account_model->delete_record($id);
+		//redirect('index.php/admin/Admin_cv_setup/show_skills');
+		if ($results=True)
+		{   
+
+			$this->session->set_flashdata('msg','The data was deleted successful');
+			echo $this->session->flashdata('msg');
+			redirect('index.php/admin/Admin_cv_setup/show_skills');
+		}
+
+	}
+	public function references(){
+
+		$this->load->view('referees/referee');
 	}
 
 	}

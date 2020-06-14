@@ -139,6 +139,7 @@ input[type=submit], select {
   <h3>Referees</h3>
   <div>
     <p>Git hub projects </p>
+<button type="button" onclick="window.location.href='references'" class="btn btn-info">Add references</button>
   </div>
 </div>
  
