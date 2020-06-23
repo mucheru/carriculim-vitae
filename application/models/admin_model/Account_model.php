@@ -63,6 +63,10 @@ class Account_model extends CI_Model{
     $this->db->delete('skills');
 
    }
+   public function insert_references($data){
+    $this->db->insert('reference',$data);
+
+   }
 }
 
 

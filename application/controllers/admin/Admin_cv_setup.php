@@ -117,10 +117,42 @@
 
 	}
 	public function references(){
-
 		$this->load->view('referees/referee');
-	}
+		$this->form_validation->set_rules('mytext','mytext','required');
+		$this->form_validation->set_rules('mobile_number','mobile_number','required');
+		$this->form_validation->set_rules('Id_number','Id_number','required|numeric');
+		//$condition=$this->input->post('Id_number');
+	    //$data['idnum']=$this->account_model->findid($condition);
+	    //$result=$data['idnum'];
+		if($this->form_validation->run()==FALSE){
+			echo validation_errors();
+		}else{
+			$data=array(
+				'reference_name'=>$this->input->post('mytext'),
+				'contact_number'=>$this->input->post('mobile_number'),
+				'idnum'=>$this->input->post('Id_number')
+			);
+
+			echo "success";
+
+			$this->account_model->insert_references($data);
+		}
 
 	}
 
+	public function verify_idnumber(){
+	;
+
+	if (empty($data['idnum'])) {
+	echo "<strong>data is empty.<br></strong>";
+	$data['idnum']=Null;
+	}else{
+	echo "<strong>data is not empty!!!!</strong>";
+	$this->load->view('referees/referee',$data);
+
+
+	}
+
+	}
+}
 	?>
